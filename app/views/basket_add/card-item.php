@@ -5,7 +5,7 @@
     <div class="product-list">
         <h3><?=$item['title_item']?></h3>
         <span class="price"><?= $item['price'] . ' ₴'?></span>
-        <form action="/addToBasket" method="post">
+        <form action="../../../index.php" method="post">
             <button name="<?=$item['id'];?>"  class="toBasket"><?=$_SESSION['inBasket'];?></button>
         </form>
     </div>
