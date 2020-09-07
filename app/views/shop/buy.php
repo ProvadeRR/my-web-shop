@@ -4,19 +4,23 @@
 <form method="post" action="/accessBuy">
     <div class="form-group">
         <label for="exampleFormControlInput1">Ваша почта</label>
-        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
+        <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Введите ваше имя</label>
+        <input type="text" class="form-control" name="name" placeholder="Станислав" required>
     </div>
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Введите номер телефона</label>
-        <input type="text" class="form-control" name="phone" value="+380">
+        <input type="text" class="form-control" name="phone" value="+380" required>
     </div>
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Город</label>
-        <input type="text" class="form-control" name="city" value="" placeholder="Например: Днепропетровск">
+        <input type="text" class="form-control" name="city" value="" placeholder="Например: Днепропетровск" required>
     </div>
     <div class="form-group">
         <label for="exampleFormControlTextarea1">Введите номер отделения</label>
-        <textarea class="form-control"  name="branch" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control"  name="branch" id="exampleFormControlTextarea1" rows="3" required></textarea>
     </div>
     <button type="submit" class="btn btn-outline-success float-right" name="id" value="<?=$id?>">Оформить заказ</button>
 </form>

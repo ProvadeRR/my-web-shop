@@ -11,7 +11,7 @@ use app\core\Regestry;
 class ItemModel extends Model
 {
     public function getItems(){
-        $items = R::getAll('SELECT categories.category_alias, categories.category,items.id , items.price,items.title_item,items.title_image,items.alias,items.avaibility FROM items INNER JOIN categories ON items.category_id = categories.id ');
+        $items = R::getAll('SELECT categories.category_alias, categories.category,items.id , items.price,items.title_item,items.title_image,items.alias,items.avaibility FROM items INNER JOIN categories ON items.category_id = categories.id  AND items.avaibility = 1');
       return $items;
     }
     public function search($word){
@@ -23,24 +23,25 @@ class ItemModel extends Model
         return $category;
     }
     public function getCategoryItems($category){
-        $items = R::getAll('SELECT categories.category,items.price,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND categories.category_alias = ?',[$category]);
+        $items = R::getAll('SELECT categories.category,items.price,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND categories.category_alias = ?  AND items.avaibility = 1',[$category]);
         return $items;
     }
     public function getItemByAlias($alias){
-        $items = R::getAll('SELECT categories.category,items.price,items.description,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND items.alias = ?',[$alias]);
+        $items = R::getAll('SELECT categories.category,items.price,items.description,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND items.alias = ? AND items.avaibility = 1',[$alias]);
         return $items;
     }
     public function searchbyID($id){
-        $items = R::getAll('SELECT categories.category,items.price,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND items.id = ?',[$id]);
+        $items = R::getAll('SELECT categories.category,items.price,items.id,items.title_item,items.title_image,items.alias,items.avaibility FROM `items`  INNER JOIN categories WHERE category_id = categories.id AND items.id = ?  AND items.avaibility = 1',[$id]);
         return $items;
     }
-    public function createOrder($phone,$email,$city,$branch,$id){
+    public function createOrder($phone,$email,$city,$branch,$id,$name){
         $order = R::dispense('orders');
         $order->phone = $phone;
         $order->email = $email;
         $order->city = $city;
         $order->branch=$branch;
         $order->item_id=$id;
+        $order->name = $name;
         if(R::store($order) != false){
             return true;
         }

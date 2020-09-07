@@ -20,58 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66021989-806f-4a4e-997c-b74b8b963b15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/RestApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/js/categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/js/main_page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/js/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/styles/main_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/styles/nav_bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/styles/one_item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shop/OneItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shop/buy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shop/categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shop/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shop/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Settings/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Settings/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ItemController.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/Cache.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/Regestry.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/base/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/ItemModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ItemModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/1050ti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/amd_ryzen_5_3600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/aoc_27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/dell_p2419h_black_210-apwu_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/gtx-1080ti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/hyperx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/intel_i7-8700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/pentium.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/radeon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/userfiles/samsung-monitor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/basket/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/plugins/banner.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/basket_add/card-item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/category/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/category/thisCategory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/category_add/list-group.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_add/card-item.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_add/card.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main_add/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shop/ItemsInCategory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/plugins/nav_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/plugins/nav_bar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shop/buy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shop/buy.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +92,7 @@
       <workItem from="1599461901589" duration="7654000" />
       <workItem from="1599469579057" duration="21488000" />
       <workItem from="1599493110173" duration="7000" />
-      <workItem from="1599493553136" duration="307000" />
+      <workItem from="1599493553136" duration="621000" />
     </task>
     <servers />
   </component>

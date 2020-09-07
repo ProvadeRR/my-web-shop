@@ -48,7 +48,8 @@ class MainController extends AppController
         $city = $_POST['city'];
         $branch = $_POST['branch'];
         $id = $_POST['id'];
-        if($this->model->createOrder($phone,$email,$city,$branch,$id)){
+        $name = $_POST['name'];
+        if($this->model->createOrder($phone,$email,$city,$branch,$id,$name)){
             header('location: http://my-shop/');
             $_SESSION['message'] = 'Вы успешно совершили покупку, менеджер в ближайшее время свяжется с вами';
         };
