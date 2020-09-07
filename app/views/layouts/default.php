@@ -7,9 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title ?></title>
     <link rel="stylesheet" href="/app/public/styles/bootstrap.min.css">
+    <?=$class?>
+
     <script src="/app/public/js/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-<?=$content?>
+<?php require_once 'app/views/plugins/nav_bar.php';?>
+<div class="container">
+    <?=$content?>
+</div>
+<script src="/app/public/js/search.js"></script>
+<?=$script?>
 </body>
 </html>

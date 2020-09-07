@@ -1,7 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="66021989-806f-4a4e-997c-b74b8b963b15" name="Default Changelist" comment="" />
+    <list default="true" id="66021989-806f-4a4e-997c-b74b8b963b15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/RestApiController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/js/categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/js/main_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/styles/main_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/styles/nav_bar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/styles/one_item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shop/OneItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shop/buy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shop/categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shop/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shop/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Settings/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Settings/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ItemController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Regestry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/base/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/base/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ItemModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ItemModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/1050ti.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/amd_ryzen_5_3600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/aoc_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/block3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/dell_p2419h_black_210-apwu_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/gtx-1080ti.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/hyperx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/intel_i7-8700.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/matplata3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/pentium.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/radeon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/ram3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/userfiles/samsung-monitor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/basket/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/plugins/banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/basket_add/card-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/category/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/category/thisCategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/category_add/list-group.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_add/card-item.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_add/card.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main_add/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shop/ItemsInCategory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/plugins/nav_bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/plugins/nav_bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +85,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gzhGAkOeSvaWzRouCGzJ4WhHvI" />
   <component name="ProjectViewState">
@@ -25,7 +100,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/basket_add" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,12 +112,15 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Программирование\OpenServer\domains\php\app\views\basket_add" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="X:\Программирование\OpenServer\domains\php\app\core" />
       <recent name="X:\Программирование\OpenServer\domains\php\app\views\main_add" />
+      <recent name="X:\Программирование\OpenServer\domains\php\app\views\basket_add" />
+      <recent name="X:\Программирование\OpenServer\domains\php\app\core" />
       <recent name="X:\Программирование\OpenServer\domains\php\app\public\styles" />
       <recent name="X:\Программирование\OpenServer\domains\php" />
-      <recent name="X:\Программирование\OpenServer\domains\php\app\views\layouts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -54,46 +133,76 @@
       <updated>1599123230116</updated>
       <workItem from="1599123231167" duration="20859000" />
       <workItem from="1599152627814" duration="1110000" />
-      <workItem from="1599209711156" duration="18418000" />
+      <workItem from="1599209711156" duration="18788000" />
+      <workItem from="1599232640802" duration="1125000" />
+      <workItem from="1599297274580" duration="21277000" />
+      <workItem from="1599379762739" duration="13773000" />
+      <workItem from="1599460991276" duration="880000" />
+      <workItem from="1599461901589" duration="7654000" />
+      <workItem from="1599469579057" duration="21488000" />
+      <workItem from="1599493110173" duration="7000" />
+      <workItem from="1599493553136" duration="307000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="981" y="350" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599128928853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="981" y="350" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599128928853" />
+    <state x="690" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599468309600">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599468309600" />
+    <state x="2610" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599315624435" />
     <state x="1059" y="257" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599231587992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1059" y="257" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599231587992" />
     <state x="2979" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599215124636" />
-    <state x="698" y="252" key="NewPhpClassDialog" timestamp="1599229407822">
+    <state x="698" y="252" key="NewPhpClassDialog" timestamp="1599461615179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="698" y="252" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599229407822" />
+    <state x="698" y="252" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599461615179" />
     <state x="2618" y="262" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599223536119" />
-    <state x="531" y="543" key="NewPhpFileDialog" timestamp="1599228982018">
+    <state x="531" y="543" key="NewPhpFileDialog" timestamp="1599490676184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="531" y="543" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599228982018" />
-    <state x="2439" y="564" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599224382004" />
+    <state x="531" y="543" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599490676184" />
+    <state x="2439" y="564" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599310421431" />
     <state x="2381" y="171" key="SettingsEditor" timestamp="1599124092986">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2381" y="171" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599124092986" />
+    <state x="777" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599312845945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599312845945" />
+    <state x="2697" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599301101788" />
     <state x="2709" y="278" key="run.anything.popup" timestamp="1599222830686">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="789" y="268" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599129739920" />
     <state x="2709" y="278" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599222830686" />
-    <state x="2716" y="306" width="672" height="705" key="search.everywhere.popup" timestamp="1599224134298">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="796" y="295" width="672" height="678" key="search.everywhere.popup" timestamp="1599479265880">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="796" y="295" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599211650665" />
-    <state x="2716" y="306" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599224134298" />
+    <state x="796" y="295" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1599479265880" />
+    <state x="2716" y="306" width="672" height="705" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599298416572" />
   </component>
 </project>
